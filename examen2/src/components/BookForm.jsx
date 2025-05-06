@@ -14,7 +14,7 @@ export const BookForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="p-4 space-y-2 bg-white shadow rounded">
-      {["título", "autor", "genero", "año"].map(field => (
+      {["titulo", "autor", "genero", "año"].map(field => (
         <input
           key={field}
           type="text"
